@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --orange-65: #FF8D4D;
+  --orange-75:#FFAE80;
+  --orange-90: #FFDECC;
+  --orange-97: #FFF5F0;
+  --grey-10: #1A1A1A;
+  --grey-15: #262626;
+  --grey-20: #333333;
+  --grey-30: #4C4C4D;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  background-color: var(--orange-97);
+  font-family: "Outfit", sans-serif;
+}
+
+.d-b {
+  display: block;
+}
+
+.d-f {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.d-n {
+  display: none;
+}
+
+.d-b {
+  display: block;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.btn-clear {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.cur-p {
+  cursor: pointer;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-black {
+  font-weight: 800;
+}
+
+.page-bl-above {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px;
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--grey-20);
+}
+
+.page-bl-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 58px;
+    line-height: 130%;
+    color: var(--grey-10);
+}
+
+.page-bl-desc {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--grey-20);
+}

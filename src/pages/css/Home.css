@@ -1,0 +1,294 @@
+.home-main {
+    margin-top: 80px;
+    margin-left: 168px;
+    gap: 60px;
+}
+
+.home-main-above {
+    width: fit-content;
+    padding-bottom: 6px;
+    border-bottom: 1px solid currentColor;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    color: var(--grey-15);
+}
+
+.home-main-title {
+    width: 766px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 130%;
+    color: var(--grey-10);
+
+    span {
+        color: var(--orange-65);
+    }
+}
+
+.home-main-desc {
+    width: 765px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--grey-20);
+}
+
+.home-main-stats {
+    width: 765px;
+    margin-top: 60px;
+    padding: 24px 50px;
+    /* Orange/95 */
+    background-color: var(--orange-95);
+    /* Grey/15 */
+    border: 2px solid var(--grey-15);
+    box-shadow: 8px 8px 0px 1px #FFBE99;
+    border-radius: 12px;
+
+    dl {
+        color: var(--grey-15);
+
+        dt {
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 150%;
+
+        }
+
+        dd {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+        }
+    }
+}
+
+.home-benefits {
+    margin-top: 200px;
+
+    .page-bl-above {
+        margin: 0 auto;
+    }
+
+    .page-bl-title {
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .page-bl-desc {
+        width: 992px;
+        margin: 19px auto 0;
+        text-align: center;
+    }
+}
+
+.home-benefits-box {
+    margin-top: 100px;
+    margin-left: 162px;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.home-benefits-item {
+    .benefits-item-icon {
+        margin-left: 30px;
+    }
+
+    .benefits-item-content {
+        width: 504px;
+        height: 306px;
+        margin-top: -40px;
+        padding: 80px 50px 50px;
+        background-color: var(--white);
+        border: 2px solid var(--grey-15);
+        box-shadow: 6px 6px 0px 2px #1E1E1E;
+        border-radius: 12px;
+    }
+
+    .benefits-item-title {
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        line-height: 130%;
+        color: var(--grey-10);
+    }
+
+    .benefits-item-desc {
+        height: 120px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-30);
+    }
+}
+
+.home-testimonials {
+    margin-top: 150px;
+
+    .page-bl-above {
+        margin: 0 auto;
+    }
+
+    .page-bl-title {
+        margin-top: 14px;
+        text-align: center;
+    }
+
+    .page-bl-desc {
+        width: 876px;
+        margin: 14px auto 0;
+        text-align: center;
+    }
+}
+
+.home-testimonials-content {
+    width: fit-content;
+    margin: 80px auto 0;
+    gap: 40px;
+}
+
+.home-testimonials-box {
+    gap: 40px;
+}
+
+.home-testimonials-item {
+    width: 340px;
+    height: 374px;
+    padding-top: 40px;
+    background-color: var(--white);
+    border: 2px solid var(--grey-15);
+    box-shadow: 4px 4px 0px 2px #1E1E1E;
+    border-radius: 10px;
+    text-align: center;
+
+    .testimonials-item-author {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-20);
+    }
+
+    .testimonials-item-rating {
+        width: fit-content;
+        margin: 24px auto 0;
+        gap: 4px;
+    }
+
+    .testimonials-item-desc {
+        width: 260px;
+        height: 120px;
+        margin: 24px auto 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--grey-20);
+    }
+}
+
+.home-faq {
+    margin-top: 200px;
+
+    .page-bl-above {
+        margin: 0 auto;
+    }
+
+    .page-bl-title {
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .page-bl-desc {
+        width: 992px;
+        margin: 19px auto 0;
+        text-align: center;
+    }
+}
+
+.home-faq-box {
+    margin-top: 100px;
+    margin-left: 162px;
+    margin-right: 162px;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+
+.home-pages {
+    margin-top: 200px;
+
+    .page-bl-above {
+        margin: 0 auto;
+    }
+
+    .page-bl-title {
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .page-bl-desc {
+        width: 996px;
+        margin: 19px auto 0;
+        text-align: center;
+    }
+}
+
+.home-pages-box {
+    margin-top: 100px;
+    margin-left: 162px;
+    margin-right: 162px;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.home-pages-item {
+    width: 773px;
+    height: 588px;
+    padding: 80px;
+    background-color: var(--white);
+    border: 2px solid var(--grey-15);
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+
+    .pages-item-title {
+        margin-bottom: 30px;
+        font-family: "Raleway", sans-serif;
+        font-size: 48px;
+        line-height: 130%;
+        text-align: center;
+        color: var(--grey-10);
+    }
+
+    .pages-item-desc {
+        width: 613px;
+        height: 120px;
+        margin-top: 50px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-30);
+    }
+
+    .pages-item-more {
+        width: 613px;
+        height: 66px;
+        margin-top: 80px;
+        padding: 18px 233px;
+        gap: 10px;
+        background-color: var(--orange-90);
+        border: 2px solid var(--grey-15);
+        box-shadow: 4px 4px 0px 2px #1E1E1E;
+        border-radius: 10px;
+
+        .more-name {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: var(--grey-20);
+        }
+    }
+}
