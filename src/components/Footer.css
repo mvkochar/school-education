@@ -1,0 +1,128 @@
+.footer {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 113px;
+    padding-right: 113px;
+    background-color: var(--white);
+    border: 2px solid var(--grey-15);
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px
+}
+
+.footer-desc {
+    width: 519px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--grey-30);
+}
+
+.footer-contacts {
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--grey-15);
+}
+
+.footer-email {
+    padding-left: 55px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: url("/images/email.png") no-repeat;
+    background-position-y: center;
+}
+
+.footer-phone {
+    padding-left: 55px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: url("/images/phone.png") no-repeat;
+    background-position-y: center;
+}
+
+.footer-location {
+    padding-left: 55px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: url("/images/location.png") no-repeat;
+    background-position-y: center;
+}
+
+.footer-nav {
+    margin-left: 80px;
+    gap: 30px;
+}
+
+.footer-list {
+    width: 226.25px;
+    list-style-type: none;
+
+
+    li {
+        margin-bottom: 14px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-20);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .footer-list-heading {
+        margin-bottom: 24px;
+        font-weight: 600;
+        color: var(--grey-15);
+
+        a {
+            color: var(--grey-15);
+        }
+    }
+}
+
+.footer-info {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid var(--grey-15);
+    border-bottom: 1px solid var(--grey-15);
+}
+
+.footer-links {
+    gap: 16px;
+    font: 500px;
+    font-size: 18px;
+    color: var(--grey-20);
+
+    a {
+        color: var(--grey-20);
+    }
+}
+
+.footer-links-divider {
+    width: 27px;
+    height: 0px;
+    border: 2px solid var(--grey-15);
+    transform: rotate(90deg);
+}
+
+.footer-social {
+    gap: 14px;
+}
+
+.footer-copyrights {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--grey-40);
+}
