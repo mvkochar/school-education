@@ -1,0 +1,56 @@
+.team_member {
+    width: 773px;
+    height: 502px;
+    padding: 50px;
+    background-color: var(--white);
+    border: 2px solid var(--grey-15);
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+}
+
+.team_member_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team_member_author {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .author_name {
+        font-family: "Raleway", sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 150%;
+        color: var(--grey-20);
+    }
+}
+
+.team_member_contact {
+    display: block;
+}
+
+.team_member_info {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: var(--orange-97);
+    border: 2px solid var(--grey-15);
+    border-radius: 12px;
+}
+
+.team_member_qualification {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--grey-20);
+}
+
+.team_member_desc {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--grey-20);
+}
