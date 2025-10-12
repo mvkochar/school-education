@@ -20,7 +20,7 @@ const Header = () => {
                     <ul className="header-nav d-f">
                         <li className="header-nav-item"><Link to="/">Home</Link></li>
                         <li className="header-nav-item"><Link to="/about">About Us</Link></li>
-                        <li className="header-nav-item"><a href="">Academics</a></li>
+                        <li className="header-nav-item"><Link to="/academics">Academics</Link></li>
                         <li className="header-nav-item"><a href="">Admissions</a></li>
                         <li className="header-nav-item"><a href="">Student Life</a></li>
                         <li className="header-nav-item header-contact"><a href="">Contact</a></li>

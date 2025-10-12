@@ -9,8 +9,13 @@
     box-shadow: 8px 8px 0px 1px #1E1E1E;
     border-radius: 12px;
 
+    >div:nth-child(1) {
+        width: 765px;
+    }
+
     .page-bl-title {
         margin-top: 14px;
+        font-size: 48px;
     }
 
     .page-bl-desc {

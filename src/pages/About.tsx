@@ -5,7 +5,7 @@ import './css/About.css'
 const About = () => {
     return (
         <>
-            <main className='about-main d-f'>
+            <main className='about-main d-f align-center'>
                 <div>
                     <p className="page-bl-above">Overview</p>
                     <h1 className="page-bl-title">Welcome to Little Learners <br /> Academy</h1>

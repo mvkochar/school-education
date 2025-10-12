@@ -1,0 +1,216 @@
+.academics-main {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 150px 120px;
+    gap: 50px;
+    background: var(--white) url("/images/academics-main.bg.png") no-repeat;
+    border: 2px solid var(--grey-15);
+    box-shadow: 8px 8px 0px 1px #1E1E1E;
+    border-radius: 12px;
+
+    >div:nth-child(1) {
+        width: 765px;
+    }
+
+    .page-bl-title {
+        margin-top: 14px;
+        font-size: 48px;
+    }
+
+    .page-bl-desc {
+        width: 765px;
+    }
+}
+
+.academics-features {
+    margin-top: 200px;
+
+    .page-bl-above {
+        margin: 0 auto;
+    }
+
+    .page-bl-title {
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .page-bl-desc {
+        width: 992px;
+        margin: 19px auto 0;
+        text-align: center;
+    }
+}
+
+.academics-features-box {
+    margin-top: 100px;
+    margin-left: 162px;
+    margin-right: 166px;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+
+.academics-features-item {
+    .features-item-icon {
+        margin-left: 30px;
+    }
+
+    .features-item-content {
+        width: 504px;
+        height: 336px;
+        margin-top: -40px;
+        padding: 80px 50px 50px;
+        background-color: var(--white);
+        border: 2px solid var(--grey-15);
+        box-shadow: 6px 6px 0px 2px #1E1E1E;
+        border-radius: 12px;
+    }
+
+    .features-item-title {
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        line-height: 130%;
+        color: var(--grey-10);
+    }
+
+    .features-item-desc {
+        width: 404px;
+        height: 150px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-30);
+    }
+}
+
+.academics-learn,
+.academics-gallery {
+    margin-top: 200px;
+
+    .page-bl-above {
+        margin: 0 auto;
+    }
+
+    .page-bl-title {
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .page-bl-desc {
+        width: 996px;
+        margin: 19px auto 0;
+        text-align: center;
+    }
+}
+
+.academics-learn-box {
+    margin-top: 100px;
+    margin-left: 162px;
+    margin-right: 16px;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.academics-learn-item {
+    width: 498.67px;
+    height: 570px;
+    padding: 50px;
+    background: var(--white) url("/images/shape1.png") no-repeat;
+    background-position-y: -2px;
+    background-position-x: center;
+    border: 2px solid var(--grey-15);
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+    text-align: center;
+
+    .learn-item-title {
+        margin-top: 50px;
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        line-height: 130%;
+        color: var(--grey-10);
+    }
+
+    .learn-item-desc {
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-30);
+    }
+}
+
+.academics-gallery {
+    margin-bottom: 200px;
+}
+
+.academics-gallery-tabs {
+    width: fit-content;
+    margin: 100px auto 0;
+    gap: 15px;
+
+    .tab-btn {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        padding: 14px 20px;
+        background-color: var(--white);
+        border: 2px solid var(--grey-20);
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 130%;
+        color: var(--grey-10);
+    }
+
+    .tab-btn__active {
+        background-color: var(--orange-95);
+    }
+}
+
+.academy-gallery-box {
+    margin-top: 150px;
+    margin-left: 162px;
+    margin-right: 162px;
+    flex-direction: column;
+    gap: 150px;
+
+    .gallery-bl-pics {
+        gap: 40px;
+        margin-left: 50px;
+    }
+
+    .gallery-bl-content {
+        margin-top: -124px;
+        padding: 200px 50px 50px;
+        gap: 40px;
+        background-color: var(--white);
+        border: 2px solid var(--grey-15);
+        box-shadow: 6px 6px 0px 2px #1E1E1E;
+        border-radius: 12px;
+    }
+
+    .gallery-bl-title {
+         font-family: "Raleway", sans-serif;
+         font-size: 40px;
+         line-height: 130%;
+         color: var(--grey-10);
+    }
+
+    .gallery-bl-actions {
+        gap: 20px;
+    }
+
+    .gallery-bl-desc {
+        margin-top: 40px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 150%;
+        color: var(--grey-30);
+    }
+}
