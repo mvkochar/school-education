@@ -23,3 +23,154 @@
 
     }
 }
+
+.admission-process {
+    margin-top: 200px;
+
+    .page-bl-above {
+        margin: 0 auto;
+    }
+
+    .page-bl-title {
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .page-bl-desc {
+        width: 995px;
+        margin: 19px auto 0;
+        text-align: center;
+    }
+}
+
+.admission-process-box {
+    margin-top: 100px;
+    margin-left: 163px;
+    margin-right: 162px;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 100px;
+}
+
+.admission-process-item {
+    .process-item-content {
+        width: 498.33px;
+        height: 322px;
+        margin-top: -4px;
+        padding: 50px;
+        background-color: var(--white);
+        border: 2px solid var(--grey-15);
+        box-shadow: 6px 6px 0px 2px #1E1E1E;
+        border-radius: 12px;
+    }
+
+    .process-item-title {
+        font-family: "Raleway", sans-serif;
+        font-size: 40px;
+        line-height: 130%;
+        color: var(--grey-10);
+    }
+
+    .process-item-desc {
+        height: 150px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-30);
+    }
+}
+
+.admission-features {
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    .page-bl-above {
+        margin: 0 auto;
+    }
+
+    .page-bl-title {
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .page-bl-desc {
+        width: 996px;
+        margin: 19px auto;
+        text-align: center;
+    }
+}
+
+.admission-features-content {
+    margin-top: 100px;
+    margin-left: 162px;
+    margin-right: 162px;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.admission-features-bl {
+    padding: 60px;
+    background-color: var(--white);
+    border: 2px solid var(--grey-15);
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+
+    .features-bl-title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 34px;
+        background-color: var(--orange-95);
+        border: 2px solid var(--grey-15);
+        border-radius: 12px;
+        font-family: "Raleway", sans-serif;
+        font-size: 30px;
+        line-height: 130%;
+        color: var(--grey-10);
+    }
+}
+
+.admission-features-structure {
+    border-collapse: collapse;
+  
+    th,
+    td {
+        width: 295.2px;
+        padding-left: 34px;
+        border: 2px solid var(--grey-15);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-15)
+    }
+
+    th {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: var(--orange-95);
+        text-align: left;
+    }
+
+    td {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.admission-features-services {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+
+    td {
+        width: 50%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 34px;
+        border: 2px solid var(--grey-15);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-15)
+    }
+}
