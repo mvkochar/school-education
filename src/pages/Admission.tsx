@@ -97,9 +97,9 @@ const Admission = () => {
                 <p className="page-bl-above">Our Features</p>
                 <h2 className="page-bl-title">Fee Structure</h2>
                 <p className="page-bl-desc">
-                    Our fee structure is transparent, and we strive 
-                    to keep our fees competitive within the education sector. 
-                    The fees vary based on the program, age group, and any 
+                    Our fee structure is transparent, and we strive
+                    to keep our fees competitive within the education sector.
+                    The fees vary based on the program, age group, and any
                     additional services chosen.
                 </p>
                 <div className="admission-features-content d-f">
@@ -114,7 +114,7 @@ const Admission = () => {
                                     <th>Activity Fee</th>
                                 </tr>
                             </thead>
-                            <div style={{height: "20px"}}></div>
+                            <div style={{ height: "20px" }}></div>
                             <tbody>
                                 <tr>
                                     <td>Nursery</td>
@@ -143,18 +143,20 @@ const Admission = () => {
                     <div className="admission-features-bl">
                         <h3 className="features-bl-title">Additional Services</h3>
                         <table className='admission-features-services'>
-                            <tr>
-                                <td>Before and After-School Care</td>
-                                <td>$120 / per month</td>
-                            </tr>
-                            <tr>
-                                <td>Language Immersion Program</td>
-                                <td>$60 / per semester</td>
-                            </tr>
-                            <tr>
-                                <td>Transportation (optional)</td>
-                                <td>$80 / per month</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>Before and After-School Care</td>
+                                    <td>$120 / per month</td>
+                                </tr>
+                                <tr>
+                                    <td>Language Immersion Program</td>
+                                    <td>$60 / per semester</td>
+                                </tr>
+                                <tr>
+                                    <td>Transportation (optional)</td>
+                                    <td>$80 / per month</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
