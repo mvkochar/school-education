@@ -1,0 +1,25 @@
+.student-main {
+     margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 150px 120px;
+    gap: 50px;
+    background: var(--white) url("/images/student-main-bg.png") no-repeat;
+    border: 2px solid var(--grey-15);
+    box-shadow: 8px 8px 0px 1px #1E1E1E;
+    border-radius: 12px;
+
+    >div:nth-child(1) {
+        width: 765px;
+    }
+
+    .page-bl-title {
+        margin-top: 14px;
+        font-size: 48px;
+    }
+
+    .page-bl-desc {
+        width: 765px;
+
+    }
+}
