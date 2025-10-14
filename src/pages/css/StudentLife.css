@@ -1,5 +1,5 @@
 .student-main {
-     margin-top: 60px;
+    margin-top: 60px;
     margin-left: 50px;
     margin-right: 50px;
     padding: 150px 120px;
@@ -21,5 +21,183 @@
     .page-bl-desc {
         width: 765px;
 
+    }
+}
+
+.student-activities {
+    margin-top: 200px;
+
+    .page-bl-above {
+        margin: 0 auto;
+    }
+
+    .page-bl-title {
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .page-bl-desc {
+        width: 992px;
+        margin: 19px auto 0;
+        text-align: center;
+    }
+}
+
+.student-activities-box {
+    margin-top: 100px;
+    margin-left: 162px;
+    margin-right: 166px;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+
+.student-activities-item {
+    .activities-item-icon {
+        margin-left: 30px;
+    }
+
+    .activities-item-content {
+        width: 504px;
+        height: 306px;
+        margin-top: -40px;
+        padding: 80px 50px 50px;
+        background-color: var(--white);
+        border: 2px solid var(--grey-15);
+        box-shadow: 6px 6px 0px 2px #1E1E1E;
+        border-radius: 12px;
+    }
+
+    .activities-item-title {
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        line-height: 130%;
+        color: var(--grey-10);
+    }
+
+    .activities-item-desc {
+        height: 120px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-30);
+    }
+}
+
+.student-features {
+    margin-top: 200px;
+
+    .page-bl-above {
+        margin: 0 auto;
+    }
+
+    .page-bl-title {
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .page-bl-desc {
+        width: 996px;
+        margin: 19px auto 0;
+        text-align: center;
+    }
+}
+
+.student-features-box {
+    margin-top: 100px;
+    margin-left: 162px;
+    margin-right: 162px;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.student-features-item {
+    width: 498.67px;
+    height: 600px;
+    padding: 50px;
+    background: var(--white) url("/public/images/shape2.png") no-repeat;
+    background-position-y: 156px;
+    background-position-x: -2px;
+    border: 2px solid var(--grey-15);
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+    text-align: center;
+
+    .features-item-title {
+        margin-top: 50px;
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        line-height: 130%;
+        color: var(--grey-10);
+    }
+
+    .features-item-desc {
+        height: 90px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-30);
+    }
+}
+
+.student-support {
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    .page-bl-above {
+        margin: 0 auto;
+    }
+
+    .page-bl-title {
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .page-bl-desc {
+        width: 1196px;
+        margin: 19px auto 0;
+        text-align: center;
+    }
+}
+
+.student-support-box {
+    margin-top: 100px;
+    margin-left: 162px;
+    gap: 40px;
+}
+
+.student-support-item {
+    .support-item-icon {
+        margin-left: 30px;
+    }
+    
+    .support-item-content {
+        width: 505.33px;
+        height: 276px;
+        margin-top: -40px;
+        padding: 80px 50px 50px;
+        background-color: var(--white);
+        border: 2px solid var(--grey-15);
+        box-shadow: 6px 6px 0px 2px #1E1E1E;
+        border-radius: 12px;
+    }
+
+    .support-item-title {
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        line-height: 130%;
+        color: var(--grey-10);
+    }
+
+    .support-item-desc {
+        height: 90px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--grey-30);
     }
 }
