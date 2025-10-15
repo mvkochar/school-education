@@ -117,7 +117,7 @@
     width: 498.67px;
     height: 600px;
     padding: 50px;
-    background: var(--white) url("/public/images/shape2.png") no-repeat;
+    background: var(--white) url("/images/shape2.png") no-repeat;
     background-position-y: 156px;
     background-position-x: -2px;
     border: 2px solid var(--grey-15);
